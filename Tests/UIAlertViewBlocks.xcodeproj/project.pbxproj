@@ -83,10 +83,6 @@
 		94C0CB2917DAE69B002CBD10 /* TestAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestAlertViewController.h; sourceTree = "<group>"; };
 		94C0CB2A17DAE69B002CBD10 /* TestAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestAlertViewController.m; sourceTree = "<group>"; };
 		94C0CB2B17DAE69B002CBD10 /* TestAlertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestAlertViewController.xib; sourceTree = "<group>"; };
-		DB448BD81EB3FDCF00EA75CB /* UIAlertView+Blocks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Blocks.h"; sourceTree = "<group>"; };
-		DB448BD91EB3FDCF00EA75CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DB448BEC1EB3FE0D00EA75CB /* UIAlertView-Blocks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAlertView-Blocks.h"; sourceTree = "<group>"; };
-		DB448BED1EB3FE0D00EA75CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB448BFC1EB3FE3200EA75CB /* UIAlertView_Blocks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIAlertView_Blocks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB448BFE1EB3FE3200EA75CB /* UIAlertView_Blocks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIAlertView_Blocks.h; sourceTree = "<group>"; };
 		DB448BFF1EB3FE3200EA75CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -131,8 +127,6 @@
 				946F2FFF17DA9A9500EBB2F1 /* UIAlertView+Blocks.m */,
 				946F2FD517DA9A3F00EBB2F1 /* UIAlertViewBlocks */,
 				946F2FEE17DA9A4000EBB2F1 /* UIAlertViewBlocksTests */,
-				DB448BD71EB3FDCF00EA75CB /* UIAlertView+Blocks */,
-				DB448BEB1EB3FE0D00EA75CB /* UIAlertView-Blocks */,
 				DB448BFD1EB3FE3200EA75CB /* UIAlertView_Blocks */,
 				946F2FCE17DA9A3F00EBB2F1 /* Frameworks */,
 				946F2FCD17DA9A3F00EBB2F1 /* Products */,
@@ -201,24 +195,6 @@
 				946F2FF117DA9A4000EBB2F1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		DB448BD71EB3FDCF00EA75CB /* UIAlertView+Blocks */ = {
-			isa = PBXGroup;
-			children = (
-				DB448BD81EB3FDCF00EA75CB /* UIAlertView+Blocks.h */,
-				DB448BD91EB3FDCF00EA75CB /* Info.plist */,
-			);
-			path = "UIAlertView+Blocks";
-			sourceTree = "<group>";
-		};
-		DB448BEB1EB3FE0D00EA75CB /* UIAlertView-Blocks */ = {
-			isa = PBXGroup;
-			children = (
-				DB448BEC1EB3FE0D00EA75CB /* UIAlertView-Blocks.h */,
-				DB448BED1EB3FE0D00EA75CB /* Info.plist */,
-			);
-			path = "UIAlertView-Blocks";
 			sourceTree = "<group>";
 		};
 		DB448BFD1EB3FE3200EA75CB /* UIAlertView_Blocks */ = {
