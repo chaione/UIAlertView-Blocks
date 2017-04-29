@@ -16,4 +16,5 @@ FOUNDATION_EXPORT const unsigned char UIAlertView_BlocksVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <UIAlertView_Blocks/PublicHeader.h>
 
+#import "UIAlertView+Blocks.h"
 
