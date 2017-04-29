@@ -23,10 +23,11 @@
 		946F300117DA9A9500EBB2F1 /* UIAlertView+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 946F2FFF17DA9A9500EBB2F1 /* UIAlertView+Blocks.m */; };
 		94C0CB2C17DAE69B002CBD10 /* TestAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C0CB2A17DAE69B002CBD10 /* TestAlertViewController.m */; };
 		94C0CB2D17DAE69B002CBD10 /* TestAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94C0CB2B17DAE69B002CBD10 /* TestAlertViewController.xib */; };
-		DB448C001EB3FE3200EA75CB /* UIAlertView_Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448BFE1EB3FE3200EA75CB /* UIAlertView_Blocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB448C031EB3FE3200EA75CB /* UIAlertView_Blocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB448BFC1EB3FE3200EA75CB /* UIAlertView_Blocks.framework */; };
 		DB448C041EB3FE3200EA75CB /* UIAlertView_Blocks.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DB448BFC1EB3FE3200EA75CB /* UIAlertView_Blocks.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DB448C081EB3FE3D00EA75CB /* UIAlertView+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 946F2FFF17DA9A9500EBB2F1 /* UIAlertView+Blocks.m */; };
+		DB4490221EB44C9900EA75CB /* UIAlertView+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 946F2FFE17DA9A9500EBB2F1 /* UIAlertView+Blocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB4490231EB44CD700EA75CB /* UIAlertView_Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448BFE1EB3FE3200EA75CB /* UIAlertView_Blocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -236,7 +237,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB448C001EB3FE3200EA75CB /* UIAlertView_Blocks.h in Headers */,
+				DB4490221EB44C9900EA75CB /* UIAlertView+Blocks.h in Headers */,
+				DB4490231EB44CD700EA75CB /* UIAlertView_Blocks.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -679,6 +681,7 @@
 				DB448C071EB3FE3200EA75CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
